@@ -1,10 +1,10 @@
 {
-  "name": "eslint",
+  "name": "eslint-trondal",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.0.0"
   },
-  "description": "eslint config",
+  "description": "eslint config trondal",
   "main": "index.js",
   "scripts": {
     "build": "true",

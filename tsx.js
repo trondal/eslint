@@ -44,10 +44,10 @@ module.exports = {
     "no-unused-vars": "off",
     "react/jsx-no-constructed-context-values": "warn",
     "react/no-array-index-key": "warn",
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
   },
   parserOptions: {
     ...base.parserOptions,
-    "project": "./tsconfig.json", // Kan overstyres
+    project: "./tsconfig.json", // Kan overstyres
   },
 };
