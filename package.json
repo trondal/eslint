@@ -1,6 +1,8 @@
 {
-  "name": "eslint-trondal",
+  "name": "@trondal/eslint",
   "version": "1.0.0",
+  "repository": "git@github.com:trondal/pluck.git",
+  "author": "Trond Albinussen <trond.albinussen@gmail.com>",
   "engines": {
     "node": ">=16.0.0"
   },
@@ -11,7 +13,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "peerDependencies": {
     "eslint": "^8.46.0",
