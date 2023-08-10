@@ -4,6 +4,7 @@ module.exports = {
       "error",
       { groups: ["builtin", "external", "internal", "parent", "sibling"] },
     ],
+    "react/react-in-jsx-scope": "off",
     /* "import/prefer-default-export": "off",
     "react/jsx-boolean-value": "off",
     "react/jsx-curly-brace-presence": "off",
@@ -37,7 +38,6 @@ module.exports = {
     radix: "warn",
     "spaced-comment": "off",
     eqeqeq: 0, */
-    "react/react-in-jsx-scope": "off",
   },
   env: {
     browser: true, // allow browser global variables

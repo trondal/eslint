@@ -22,6 +22,7 @@ module.exports = {
   ],
   // "rules" always wins over "extends"
   rules: {
+    ...base.rules,
     "import/order": [
       "error",
       { groups: ["builtin", "external", "internal", "parent", "sibling"] },
