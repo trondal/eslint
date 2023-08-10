@@ -4,7 +4,6 @@ module.exports = {
       "error",
       { groups: ["builtin", "external", "internal", "parent", "sibling"] },
     ],
-    "react/react-in-jsx-scope": "off",
     /* "import/prefer-default-export": "off",
     "react/jsx-boolean-value": "off",
     "react/jsx-curly-brace-presence": "off",

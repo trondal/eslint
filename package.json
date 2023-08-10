@@ -1,6 +1,6 @@
 {
   "name": "@trondal/eslint-config-trondal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": "git@github.com:trondal/pluck.git",
   "author": "Trond Albinussen <trond.albinussen@gmail.com>",
   "engines": {
@@ -21,8 +21,8 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.2.1",
-    "@typescript-eslint/parser": "^6.2.1",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-prettier": "^9.0.0",

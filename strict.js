@@ -1,7 +1,6 @@
-const base = require("./base");
+//const base = require("./base");
 
 module.exports = {
-  ...base,
   extends: [
     "airbnb",
     "airbnb-typescript",
@@ -22,7 +21,6 @@ module.exports = {
   ],
   // "rules" always wins over "extends"
   rules: {
-    ...base.rules,
     "import/order": [
       "error",
       { groups: ["builtin", "external", "internal", "parent", "sibling"] },
@@ -38,6 +36,7 @@ module.exports = {
     ],
     // This must be off due to @typescript-eslint/no-use-before-define
     "no-use-before-define": "off",
+    "react/react-in-jsx-scope": "off",
   },
   parserOptions: {
     ...base.parserOptions,
