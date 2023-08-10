@@ -1,5 +1,5 @@
 {
-  "name": "@trondal/eslint",
+  "name": "@trondal/eslint-config-trondal",
   "version": "1.0.0",
   "repository": "git@github.com:trondal/pluck.git",
   "author": "Trond Albinussen <trond.albinussen@gmail.com>",
