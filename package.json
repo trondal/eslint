@@ -1,12 +1,12 @@
 {
   "name": "@trondal/eslint-config-trondal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "git@github.com:trondal/pluck.git",
   "author": "Trond Albinussen <trond.albinussen@gmail.com>",
   "engines": {
     "node": ">=16.0.0"
   },
-  "description": "eslint config trondal",
+  "description": "eslint config trondal react",
   "main": "index.js",
   "scripts": {
     "build": "true",
