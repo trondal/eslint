@@ -1,6 +1,6 @@
 {
   "name": "@trondal/eslint-config-trondal",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": "git@github.com:trondal/pluck.git",
   "author": "Trond Albinussen <trond.albinussen@gmail.com>",
   "engines": {
@@ -13,7 +13,10 @@
     "release": "npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "license": "ISC",
   "peerDependencies": {
     "eslint": "^8.46.0",

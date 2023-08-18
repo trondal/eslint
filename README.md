@@ -39,11 +39,8 @@ In package.json, .eslintrc.json or whatever file you use for eslint configuratio
 
     "eslintConfig": {
         "extends": [
-            "trondal/eslint/tsx"
+            "@trondal/trondal/strict"
         ],
-        "parserOptions": {
-            "project": "./tsconfig.json"
-        },
         "rules": {
             "react/self-closing-comp": 0
         }
