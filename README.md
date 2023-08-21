@@ -2,6 +2,28 @@
 
 - Package for common eslint rules.
 
+## contained packages
+
+- airbnb:
+  - eslint
+  - eslint-plugin-import
+  - eslint-plugin-jsx-a11y
+  - eslint-plugin-react
+  - eslint-plugin-react-hooks
+- airbnb-typescript
+  - eslint
+  - @typescript-eslint/eslint-plugin
+  - @typescript-eslint/parser
+  - eslint-plugin-import
+- airbnb/hooks
+- plugin:@typescript-eslint/recommended
+  - eslint
+  - @typescript-eslint/eslint-plugin
+  - @typescript-eslint/parser
+  - eslint-plugin-import
+- plugin:@typescript-eslint/recommended-requiring-type-checking
+- prettier
+
 ## Versions
 
 - "jsx" version deals with js and jsx. It is ment for legacy js/lsx project. NOT new projects.
