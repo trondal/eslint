@@ -28,7 +28,7 @@ module.exports = {
     ],
     "import/no-default-export": "error",
     "import/prefer-default-export": "off",
-    "no-console": ["error", { allow: ["warn", "error", "info"] }],
+    "no-console": ["warning", { allow: ["warn", "error", "info"] }],
     "no-nested-ternary": "off",
     // Allow most functions to rely on type inference. If the function is exported, then `@typescript-eslint/explicit-module-boundary-types` will ensure it's typed.
     "@typescript-eslint/explicit-function-return-type": "off",
@@ -40,6 +40,7 @@ module.exports = {
     // This must be off due to @typescript-eslint/no-use-before-define
     "no-use-before-define": "off",
     "react/react-in-jsx-scope": "off",
+    "unicorn/prevent-abbreviations": "off",
     "unicorn/filename-case": [
       "error",
       {
