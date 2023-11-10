@@ -68,7 +68,7 @@ In package.json, .eslintrc.json or whatever file you use for eslint configuratio
         }
     },
 
-## Override global rules.
+## Override global rules..
 
 If you want to change the rules globally, it should be commited into this repo, and can be set in the "rules" section of index.js.
 If your project has "special" needs, override the rules in the project, not this repo.
